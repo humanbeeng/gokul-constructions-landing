@@ -326,7 +326,7 @@
       	$('.pagepiling').pagepiling({
     		scrollingSpeed: 280,
 		    menu: '.menu-pagepiling',
-		    anchors: ['main', 'about', 'projects', 'team', 'testimonials', 'contacts'],
+		    anchors: ['main', 'about', 'projects', 'team', 'contacts'],
 		    afterLoad: function(anchorLink, index){
 		    	if ($('.pp-scrollable:nth-child(' + (index) + ')').hasClass(('section-white'))){ 
 		            $('.navbar').removeClass('navbar-white');
